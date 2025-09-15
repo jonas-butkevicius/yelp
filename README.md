@@ -3,4 +3,4 @@ During the initial import of the users JSON data into BigQuery, the schema auto-
 
 Recognizing this was incorrect, I adjusted the import process by explicitly defining the table schema beforehand. I set the elite column to the STRING data type, which correctly accommodates a comma-separated list of years.
 
-Upon inspecting the data after the successful import, I discovered the formatting anomaly. My assumption is that values written as 20,20 were intended to represent the year 2020. This finding prompted the data cleaning operation to standardize the year format within the column.
+Upon inspecting the data after the successful import, I discovered the formatting anomaly. My assumption is that values written as 20,20 were intended to represent the year 2020. This finding prompted the data cleaning operation to standardize the elite year format within the column.
